@@ -13,7 +13,7 @@ namespace Casgem.ObserverDesingPattern.Controllers
 
         public RegisterController(UserManager<AppUser> userManager, ObserverObject observerObject)
         {
-            _appUser = appUser;
+            _userManager = userManager;
             _observerObject = observerObject;
         }
 
