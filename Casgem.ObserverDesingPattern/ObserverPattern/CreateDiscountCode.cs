@@ -17,8 +17,10 @@ namespace Casgem.ObserverDesingPattern.ObserverPattern
             context.Discounts.Add(new Discount
             {
                 DiscountCode = "Dergi Ağustos",
-
+                DiscountAmount = 25,
+                DiscountCodeStatus = true
             });
+            context.SaveChanges();
         }
     }
 }
